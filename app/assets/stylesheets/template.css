@@ -107,15 +107,20 @@ body{
 }
 
 .space-top-1{
-	margin: 5%;
+	margin: 5% auto;
 }
 
 .space-top-2{
-	margin: 10%;
+	margin: 10% auto;
 }
 
 .space-top-3{
-	margin: 15%;
+	margin: 15% auto;
+}
+
+.text-center{
+	text-align: center;
+	text-align: -webkit-center;
 }
 
 .text-left{

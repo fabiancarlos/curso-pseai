@@ -1,0 +1,169 @@
+.wrap-background{
+	width: 100%;
+	height: 580px;
+	background: url('/assets/tela-icial-bg.png') no-repeat no-repeat center center;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrap-background-image{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+}
+
+.wrap-background-content{
+	width: 100%;
+	position: relative;
+	top: 150px;
+	left: 0px;
+}
+
+.wrap-content{
+	width: 100%;
+	min-height: 100px;
+	padding: 30px 40px;
+}
+
+.wrap-content.shine{
+	background: #f1951b;
+}
+
+.wrap-content.cute{
+	background: #e15b64;
+}
+
+.wrap-content.gray{
+	background: #ddd;
+}
+
+.logo-ps-e-ai{
+	width: 250px;
+  height: 140px;
+	background: url('/assets/logo.png') no-repeat no-repeat center center;
+	margin: 0px auto;
+}
+
+.icon-desktop-ps{
+	width: 170px;
+	height: 150px;
+	background: url('/assets/ps.png') no-repeat no-repeat center center;
+	margin: 0px auto;
+}
+
+.icon-desktop-ai{
+	width: 170px;
+	height: 150px;
+	background: url('/assets/ai.png') no-repeat no-repeat center center;
+	margin: 0px auto;
+}
+
+.legend-2{
+	font-size: 2.4em;
+	font-weight: 800;
+	color: #fff;
+	line-height: 1.1em;
+	text-transform: uppercase;
+	margin: 10px 0px;
+}
+
+.legend-3{
+	font-size: 1.8em;
+	font-weight: 800;
+	color: #fff;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	margin: 5px 0px;
+}
+
+.legend-4{
+	font-size: 1.4em;
+	font-weight: 800;
+	color: #fff;
+	line-height: 1em;
+	text-transform: uppercase;
+	margin: 5px 0px;
+}
+
+.normal{
+	font-weight: 400;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.description-2{
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #fff;
+	line-height: 1.1em;
+	margin: 10px 0px;
+}
+
+.description-3{
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #fff;
+	margin: 10px 0px;
+}
+
+.description-4{
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #fff;
+	margin: 10px 0px;
+}
+
+.text-cute{
+	color: #e15b64;
+}
+
+.icon-persona{
+	width: 240px;
+	height: 240px;
+}
+
+.advertiser{
+	background: url('/assets/publicitario.png') no-repeat no-repeat center center;
+	background: url('/assets/publicitario.svg') no-repeat no-repeat center center;
+}
+
+.web-designer{
+	background: url('/assets/web-designer.png') no-repeat no-repeat center center;
+	background: url('/assets/web-designer.svg') no-repeat no-repeat center center;
+}
+
+.fashion-designer{
+	background: url('/assets/designer-de-moda.png') no-repeat no-repeat center center;
+	background: url('/assets/designer-de-moda.svg') no-repeat no-repeat center center;
+}
+
+.illustrators{
+	background: url('/assets/ilustrador.png') no-repeat no-repeat center center;
+	background: url('/assets/ilustrador.svg') no-repeat no-repeat center center;
+}
+
+.photographers{
+	background: url('/assets/fotografo.png') no-repeat no-repeat center center;
+	background: url('/assets/fotografo.svg') no-repeat no-repeat center center;
+}
+
+.teacher-image{
+	width: 250px;
+	height: 250px;
+	background: url('/assets/perfil.png') no-repeat no-repeat center center;
+	background: url('/assets/perfil.png') no-repeat no-repeat center center;
+	border-radius: 50%;
+	margin: 0 auto 10px;
+}
+
+.techer-info-divider{
+	width: 1px;
+	height: 500px;
+	border-right: 2px dashed #fff;
+	margin: 5px auto;
+}
+

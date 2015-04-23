@@ -1,0 +1,35 @@
+.btn{
+	display: inline-block;
+  height: 40px;
+  padding: 0px 15px;
+  margin: 0px 5px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 2em;
+  color: #666;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: transparent;
+  background-image: none;
+  border: 2px solid #e3e3e3;
+  border-radius: 1px;
+}
+
+.btn.link{
+  color: #fff;
+  border: none;
+}
+
+.btn.link:hover,
+.btn.link:focus{
+  text-decoration: underline;
+}
