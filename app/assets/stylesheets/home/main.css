@@ -31,7 +31,7 @@
 .wrap-content{
 	width: 100%;
 	min-height: 100px;
-	padding: 30px 40px;
+	padding: 15px 40px;
 }
 
 .wrap-content.shine{
@@ -46,11 +46,22 @@
 	background: #ddd;
 }
 
+.wrap-content.freezing{
+	background: #009fbc;
+}
+
 .logo-ps-e-ai{
 	width: 280px;
   height: 140px;
 	background: url('/assets/logo.png') no-repeat no-repeat center center;
 	margin: 0px auto;
+}
+
+.logo-ps-e-ai-md{
+	width: 180px;
+  height: 100px;
+	background: url('/assets/logo-resp.png') no-repeat no-repeat center center;
+	display: inline-block;
 }
 
 .icon-desktop-ps{
