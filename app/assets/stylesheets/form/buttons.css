@@ -2,7 +2,6 @@
 	display: inline-block;
   height: 40px;
   padding: 0px 15px;
-  margin: 0px 5px;
   font-size: 1em;
   font-weight: 400;
   line-height: 2em;
@@ -20,7 +19,7 @@
   user-select: none;
   background: transparent;
   background-image: none;
-  border: 2px solid #e3e3e3;
+  border: none;
   border-radius: 1px;
 }
 
@@ -32,4 +31,15 @@
 .btn.link:hover,
 .btn.link:focus{
   text-decoration: underline;
+}
+
+.btn.shine{
+  font-weight: 800;
+  color: #fff;
+  background: #F6B711;
+}
+
+.btn-block{
+  display: block;
+  width: 100%;
 }
