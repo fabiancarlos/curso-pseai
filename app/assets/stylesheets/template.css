@@ -210,6 +210,12 @@ body{
 	.col-12{
 		width: 8.3%;
 	}
+	.col-13{
+		width: 7.69%;
+	}
+	.col-14{
+		width: 7.14%;
+	}
 }
 
 .visible-xs,
@@ -246,6 +252,11 @@ body{
 .space-top-1{
 	width: 100%;
 	height: 40px;
+}
+
+.space-top-1-2{
+	width: 100%;
+	height: 20px;
 }
 
 .space-top-2{
