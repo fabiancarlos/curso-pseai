@@ -285,6 +285,10 @@ body{
 	display: block;
 }
 
+.downcase{
+	text-transform: lowercase;
+}
+
 .text-center-xs, 
 .text-center-sm{
 	text-align: inherit;
