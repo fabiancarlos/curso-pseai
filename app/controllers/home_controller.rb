@@ -15,7 +15,7 @@ class HomeController < ApplicationController
 
       	PreRegistration.register_email(@student).deliver
 
-        flash[:notice] = 'Enviado!'
+        flash[:notice] = 'Sua pré-matricula foi enviada!'
         format.html { redirect_to root_path('/#preregister-form') }
         format.json { render json: @student, status: :created, location: @student }
       else
