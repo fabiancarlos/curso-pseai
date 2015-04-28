@@ -1,0 +1,22 @@
+.error-form{
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	background: #ED995C;
+  border: 1px solid #D36D23;
+  border-radius: 6px;
+}
+
+.error-form .error-title{
+	font-size: 0.8em;
+	font-weight: 800;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+.error-form ul{
+	list-style: square;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0px 10px;
+	padding: 0px 15px 0px;
+}

@@ -1,27 +1,47 @@
-<div class="wrap-content cute">
+<div class="wrap-content cute" id="preregister-form">
 	<div class="space-top-1 visible-sm visible-md visible-lg"></div>
 
 	<h3 class="legend-3 text-center">Faça sua pré-matricula</h3>
+
+	<div class="row">
+		<div class="col-3 col-sm-4 col-xs-1"></div>
+		<div class="col-3 col-sm-2 col-xs-1">
+			<% if @student.errors.any? %>
+		    <div class="error-form">
+		      <% if @student.errors.count > 1 %>
+		        <h3 class="error-title"><%= pluralize(@student.errors.count, "error") %>:</h3>
+		      <% end %>    
+
+		      <ul>
+		      <% @student.errors.full_messages.each do |msg| %>
+		        <li><%= msg %></li>
+		      <% end %>
+		      </ul>
+		    </div>
+		  <% end %>
+		</div>
+	</div>
 
 	<div class="container">
 		<div class="row">
 			<div class="col-4 col-sm-4 col-xs-1"></div>
 			<div class="col-2 col-sm-2 col-xs-1">
-				<form class="form">
+				<%= form_for(@student, url: @url, :html => {:multipart => false, :class => 'form'}) do |f| %>
+
 					<div class="row">
 						<div class="col-1">
 							<div class="form-inputs">
-								<input class="input" placeholder="Nome">
+								<%= f.text_field :name, :class => 'input', :autofocus => @student.errors.any? == true, :placeholder => 'Nome' %>
 							</div>
 						</div>
 						<div class="col-1">
 							<div class="form-inputs">
-								<input class="input" placeholder="Email">
+								<%= f.text_field :email, :class => 'input', :placeholder => 'Email' %>
 							</div>
 						</div>
 						<div class="col-1">
 							<div class="form-inputs">
-								<input class="input" placeholder="Profissão">
+								<%= f.text_field :ocuppation, :class => 'input', :placeholder => 'Profissão' %>
 							</div>
 						</div>
 					</div>
@@ -29,12 +49,12 @@
 					<div class="row">
 						<div class="col-2 col-xs-1 col-sm-2 col-md-2">
 							<div class="form-inputs">
-								<input class="input" placeholder="Telefone">
+								<%= f.number_field :phone, :class => 'input', :placeholder => 'Telefone' %>
 							</div>
 						</div>
 						<div class="col-2 col-xs-1 col-sm-2 col-md-2">
 							<div class="form-inputs">
-								<input class="input" placeholder="Celular">
+								<%= f.number_field :cell_phone, :class => 'input', :placeholder => 'Celular' %>
 							</div>
 						</div>
 					</div>
@@ -46,7 +66,8 @@
 							</div>
 						</div>
 					</div>
-				</form>
+
+				<% end %>
 			</div>
 		</div>
 
