@@ -66,6 +66,10 @@
 	background: #955AA4;
 }
 
+.gaygay{
+	background: #665382;
+}
+
 .logo-ps-e-ai{
 	width: 280px;
   height: 140px;
@@ -155,6 +159,10 @@
 	color: #e15b64;
 }
 
+.text-gaygay{
+	color: #665382;
+}
+
 .icon-persona{
 	width: 240px;
 	height: 240px;
@@ -186,6 +194,11 @@
 	background: url('/assets/fotografo.svg') no-repeat no-repeat center center;
 }
 
+.brain{
+	background: url('/assets/brain.png') no-repeat no-repeat center center;
+	background: url('/assets/brain.svg') no-repeat no-repeat center center;
+}
+
 .teacher-image{
 	width: 250px;
 	height: 250px;
@@ -202,3 +215,23 @@
 	margin: 5px auto;
 }
 
+.programmatic-content-divider{
+	width: 1px;
+	height: 220px;
+	border-right: 2px dashed #fff;
+	margin: 5px auto;
+}
+
+.iframe-map{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.iframe-map iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

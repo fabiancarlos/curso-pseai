@@ -1,7 +1,9 @@
-<div class="wrap-content cute" id="preregister-form">
+<div class="wrap-content gaygay" id="preregister-form">
 	<div class="space-top-1 visible-sm visible-md visible-lg"></div>
 
-	<h3 class="legend-3 text-center">Faça sua pré-matrícula</h3>
+	<h3 class="legend-3 normal text-center">Faça sua inscrição</h3>
+
+	<div class="space-top-1 visible-sm visible-md visible-lg"></div>
 
 	<div class="row">
 		<div class="col-3 col-sm-4 col-xs-1"></div>
@@ -71,6 +73,19 @@
 					</div>
 
 					<div class="row">
+						<div class="col-2 col-xs-1 col-sm-2 col-md-2">
+							<div class="form-inputs">
+								<%= f.select :date_course, options_for_select(@date_course_options), {}, {:class => "input"} %>
+							</div>
+						</div>
+						<div class="col-2 col-xs-1 col-sm-2 col-md-2">
+							<div class="form-inputs">
+								<%= f.select :hour_course, options_for_select(@hour_course_options), {}, {:class => "input"} %>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
 						<div class="col-1 col-xs-1 col-sm-1 col-md-1">
 							<div class="form-inputs">
 								<button type="submit" class="btn btn-block shine">ENVIAR</button>
@@ -82,14 +97,6 @@
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-4 col-sm-1 col-xs-1"></div>
-			<div class="col-2 col-sm-1 col-xs-1">
-				<p class="description-2 text-center">
-					Em breve te informarei a data, horário e local. <br>
-			Nos vemos em breve  =)
-				</p>
-			</div>
-		</div>
+
 	</div>
 </div>

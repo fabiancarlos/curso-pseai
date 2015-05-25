@@ -36,7 +36,7 @@ gem "fog", "~> 1.28.0"
 group :development do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
-  gem 'spring'
+  gem 'spring', '~> 1.3.6'
 end
 
 # Tests / Debugging
