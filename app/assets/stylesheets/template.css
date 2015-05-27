@@ -289,8 +289,16 @@ body{
 	display: block;
 }
 
+.uppercase{
+	text-transform: uppercase;
+}
+
 .downcase{
 	text-transform: lowercase;
+}
+
+.capitalize{
+	text-transform: capitalize;
 }
 
 .text-center-xs, 
