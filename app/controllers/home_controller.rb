@@ -34,16 +34,16 @@ class HomeController < ApplicationController
     @date_course_options = {
       'Data'     =>  '',
       '29 de Junho, Segunda a Sexta'     => '29 de Junho, Segunda a Sexta',
-      '4 de Julho, Todos os Sabados'   => '4 de Julho, Todos os Sabados'
+      '4 de Julho, Todos os Sábados'   => '4 de Julho, Todos os Sábados'
     }
 
     @hour_course_options = {
       'Horário'     =>  '',
-      '15:00 às 18:00'  => '15:00 às 18:00',
-      '19:00 às 22:00'  => '19:00 às 22:00',
-      '08:00 às 11:00'  => '08:00 às 11:00',
-      '13:00 às 16:00'  => '13:00 às 16:00',
-      '18:00 às 21:00'  => '18:00 às 21:00'
+      '15:00 às 18:00 Seg a Sex'  => '15:00 às 18:00 Seg a Sex',
+      '19:00 às 22:00 Seg a Sex'  => '19:00 às 22:00 Seg a Sex',
+      '08:00 às 11:00 Sáb'  => '08:00 às 11:00 Sáb',
+      '13:00 às 16:00 Sáb'  => '13:00 às 16:00 Sáb',
+      '18:00 às 21:00 Sáb'  => '18:00 às 21:00 Sáb'
     }
   end
 
