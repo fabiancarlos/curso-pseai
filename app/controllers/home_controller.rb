@@ -33,17 +33,17 @@ class HomeController < ApplicationController
   def options_form
     @date_course_options = {
       'Data'     =>  '',
-      '29 de Junho, Segunda a Sexta'     => '29 de Junho, Segunda a Sexta',
-      '4 de Julho, Todos os Sábados'   => '4 de Julho, Todos os Sábados'
+      '06 de julho, Segunda a Sexta'     => '06 de julho, Segunda a Sexta',
+      '11 de julho, Todos os Sábados'   => '11 de julho, Todos os Sábados'
     }
 
     @hour_course_options = {
       'Horário'     =>  '',
-      '15:00 às 18:00 Seg a Sex'  => '15:00 às 18:00 Seg a Sex',
-      '19:00 às 22:00 Seg a Sex'  => '19:00 às 22:00 Seg a Sex',
-      '08:00 às 11:00 Sáb'  => '08:00 às 11:00 Sáb',
-      '13:00 às 16:00 Sáb'  => '13:00 às 16:00 Sáb',
-      '18:00 às 21:00 Sáb'  => '18:00 às 21:00 Sáb'
+      '15:00h às 18:00h Seg a Sex'  => '15:00h às 18:00h Seg a Sex',
+      '19:00h às 22:00h Seg a Sex'  => '19:00h às 22:00h Seg a Sex',
+      '08:00h às 11:00h Sáb'  => '08:00h às 11:00h Sáb',
+      '13:00h às 16:00h Sáb'  => '13:00h às 16:00h Sáb',
+      '18:00h às 21:00h Sáb'  => '18:00h às 21:00h Sáb'
     }
   end
 
