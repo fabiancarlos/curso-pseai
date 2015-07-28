@@ -33,8 +33,8 @@ class HomeController < ApplicationController
   def options_form
     @date_course_options = {
       'Data'     =>  '',
-      '06 de julho, Segunda a Sexta'     => '06 de julho, Segunda a Sexta',
-      '11 de julho, Todos os Sábados'   => '11 de julho, Todos os Sábados'
+      '10 de Agosto, Segunda a Sexta'     => '10 de Agosto, Segunda a Sexta',
+      '15 de Agosto, Todos os Sábados'   => '15 de Agosto, Todos os Sábados'
     }
 
     @hour_course_options = {
