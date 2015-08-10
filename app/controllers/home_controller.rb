@@ -33,8 +33,8 @@ class HomeController < ApplicationController
   def options_form
     @date_course_options = {
       'Data'     =>  '',
-      '10 de Agosto, Segunda a Sexta'     => '10 de Agosto, Segunda a Sexta',
-      '15 de Agosto, Todos os Sábados'   => '15 de Agosto, Todos os Sábados'
+      '17 de Agosto, Segunda a Sexta'     => '17 de Agosto, Segunda a Sexta',
+      '22 de Agosto, Todos os Sábados'   => '22 de Agosto, Todos os Sábados'
     }
 
     @hour_course_options = {
@@ -42,8 +42,7 @@ class HomeController < ApplicationController
       '15:00h às 18:00h Seg a Sex'  => '15:00h às 18:00h Seg a Sex',
       '19:00h às 22:00h Seg a Sex'  => '19:00h às 22:00h Seg a Sex',
       '08:00h às 11:00h Sáb'  => '08:00h às 11:00h Sáb',
-      '13:00h às 16:00h Sáb'  => '13:00h às 16:00h Sáb',
-      '18:00h às 21:00h Sáb'  => '18:00h às 21:00h Sáb'
+      '13:00h às 16:00h Sáb'  => '13:00h às 16:00h Sáb'
     }
   end
 
